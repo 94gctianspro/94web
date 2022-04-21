@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>94GCTian Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/feather/feather.css">
+  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="../../vendors/select2/select2.min.css">
+  <link rel="stylesheet" href="../../vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/trustlogo.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/94.jpg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="icon-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+             
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  
+                </div>
+                <div class="preview-item-content">
+                 
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  
+                </div>
+                <div class="preview-item-content">
+                  
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                 
+                </div>
+                <div class="preview-item-content">
+                  
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="../../images/94.jpg" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-settings d-none d-lg-flex">
+            <a class="nav-link" href="#">
+              <i class="icon-ellipsis"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="ti-settings"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close ti-close"></i>
+          <p class="settings-heading">SIDEBAR SKINS</p>
+          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+          <p class="settings-heading mt-2">HEADER SKINS</p>
+          <div class="color-tiles mx-0 px-4">
+            <div class="tiles success"></div>
+            <div class="tiles warning"></div>
+            <div class="tiles danger"></div>
+            <div class="tiles info"></div>
+            <div class="tiles dark"></div>
+            <div class="tiles default"></div>
+          </div>
+        </div>
+      </div>
+      <div id="right-sidebar" class="settings-panel">
+        <i class="settings-close ti-close"></i>
+        <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+          <li class="nav-item">
+            
+          </li>
+          <li class="nav-item">
+            
+          </li>
+        </ul>
+        <div class="tab-content" id="setting-content">
+          <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+            <div class="add-items d-flex px-3 mb-0">
+              <form class="form w-100">
+                <div class="form-group d-flex">
+                 
+                </div>
+              </form>
+            </div>
+            <div class="list-wrapper px-3">
+              
+             
+            </div>
+           
+            <div class="events pt-4 px-3">
+              
+            </div>
+            <div class="events pt-4 px-3">
+              
+            </div>
+          </div>
+          <!-- To do section tab ends -->
+          <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+           
+            
+          </div>
+          <!-- chat tab ends -->
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">
+              <i class="icon-grid menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+              <i class="icon-columns menu-icon"></i>
+              <span class="menu-title">Form elements</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link" href="../../pages/forms/Student.html">Student Form</a></li>
+                <li class="nav-item"><a class="nav-link" href="../../pages/forms/Sponser.html">Sponsor Form</a></li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <i class="icon-grid-2 menu-icon"></i>
+              <span class="menu-title">Report</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="../../pages/tables/basic-table.html">Student Table</a></li>
+                <li class="nav-item"> <a class="nav-link" href="../../pages/tables/Sponsor-table.html">Sponsor Table</a></li>
+              </ul>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">        
+        <div class="content-wrapper">
+         <form class="form-sample">
+          <div class="row">
+              
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Profile</h4>
+                  <form class="form-sample">
+                    
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">94 Id</label>
+                          <div class="col-sm-9">
+                              <p name="94id" class="form-control" style="background-color: rgb(234, 229, 234);">22</p>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label"></label>
+                          <div class="col-sm-9">
+                              <img src="\images\faces\face18.jpg" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">First Name</label>
+                          <div class="col-sm-9">
+                            <p name="firstname" class="form-control" style="background-color: rgb(234, 229, 234);">Edan</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Last Name</label>
+                          <div class="col-sm-9">
+                            <p name="lastname" class="form-control" style="background-color: rgb(234, 229, 234);">Jones</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Gender</label>
+                          <div class="col-sm-9">
+                            <p name="gender" class="form-control" style="background-color: rgb(234, 229, 234);">Male</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Date of Birth</label>
+                          <div class="col-sm-9">
+                            <p name="dob" class="form-control" style="background-color: rgb(234, 229, 234);">15-07-1999</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Register No</label>
+                          <div class="col-sm-9">
+                            <p name="registerno" class="form-control" style="background-color: rgb(234, 229, 234);">1811123</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Accomodation</label>
+                          <div class="col-sm-9">
+                            <p name="accomodation" class="form-control" style="background-color: rgb(234, 229, 234);">Hosteller</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Department</label>
+                          <div class="col-sm-9">
+                            <p name="department" class="form-control" style="background-color: rgb(234, 229, 234);">IT</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Year</label>
+                          <div class="col-sm-9">
+                            <p name="year" class="form-control" style="background-color: rgb(234, 229, 234);">2nd</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label for="exampleInputMobile" class="col-sm-3 col-form-label">Phone No</label>
+                            <div class="col-sm-9">
+                                <p name="phoneno" class="form-control" style="background-color: rgb(234, 229, 234);">9876543210</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label for="exampleInputMobile" class="col-sm-3 col-form-label">Whatsapp No</label>
+                            <div class="col-sm-9">
+                                <p name="whatsappno" class="form-control" style="background-color: rgb(234, 229, 234);">9876543210</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email Id</label>
+                            <div class="col-sm-9">
+                                <p name="email" class="form-control" style="background-color: rgb(234, 229, 234);">abc@gmail.com</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Gsuite Id</label>
+                            <div class="col-sm-9">
+                                <p name="gsuite" class="form-control" style="background-color: rgb(234, 229, 234);">abc@gct.ac.in</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">CGPA</label>
+                          <div class="col-sm-9">
+                            <p name="cgpa" class="form-control" style="background-color: rgb(234, 229, 234);">9.31</p>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Batch Year</label>
+                          <div class="col-sm-9">
+                            <p name="batchyear" class="form-control" style="background-color: rgb(234, 229, 234);">2019-2023</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Cutoff</label>
+                          <div class="col-sm-9">
+                            <p name="cutoff" class="form-control" style="background-color: rgb(234, 229, 234);">93.50</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Year of joining in Trust</label>
+                          <div class="col-sm-9">
+                            <p name="yearOfJoiningInTrust" class="form-control" style="background-color: rgb(234, 229, 234);">2019</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Aadhar No</label>
+                          <div class="col-sm-9">
+                            <p name="aadhar" class="form-control" style="background-color: rgb(234, 229, 234);">44332211445</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Blood Group</label>
+                          <div class="col-sm-9">
+                            <p name="bloodgroup" class="form-control" style="background-color: rgb(234, 229, 234);">O+ve</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Religion</label>
+                          <div class="col-sm-9">
+                            <p name="religion" class="form-control" style="background-color: rgb(234, 229, 234);">Christian</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Community</label>
+                          <div class="col-sm-9">
+                            <p name="community" class="form-control" style="background-color: rgb(234, 229, 234);">BC</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Annual Income</label>
+                          <div class="col-sm-9">
+                            <p name="annualincome" class="form-control" style="background-color: rgb(234, 229, 234);">90000</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">First Graduate</label>
+                          
+                          <div class="col-sm-9">
+                            <p name="firstgraduate" class="form-control" style="background-color: rgb(234, 229, 234);">No</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Differently abled</label>
+                          
+                          <div class="col-sm-9">
+                            <p name="differentlyabled" class="form-control" style="background-color: rgb(234, 229, 234);">No</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  
+                    <h4 class="card-title">Permanent address</h4>
+                  
+                  
+                  
+                    
+                        <form class="forms-sample">
+                          <div class="form-group">
+                            <p name="permanentaddress" class="form-control" style="background-color: rgb(234, 229, 234);">21,Raj Street, Chennai 600018</p>
+                          </div>
+                          
+                          
+                          
+                        </form>
+                      
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Communication address</h4>
+                  
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <p name="communicationaddress" class="form-control" style="background-color: rgb(234, 229, 234);">21,Raj Street, Chennai 600018</p>
+                    </div>
+                    
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Family details</h4>
+                  
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <label for="parentstatus">Parent Status</label>
+                      
+                      <p name="parentstatus" class="form-control" style="background-color: rgb(234, 229, 234);">alive</p>
+
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="sibling">Sibling</label>
+                      
+                      <p name="sibling" class="form-control" style="background-color: rgb(234, 229, 234);">sister</p>
+
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="siblingscount">Siblings count</label>
+                      
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">1</p>
+                      
+                    </div>
+                    <p class="card-description">
+                      Father details
+                    </p>
+                    <div class="form-group">
+                      <label for="fname">Name</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">arjun</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="foccupation">Occupation</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">weaver</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="fmobile">Mobile No</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">9087654321</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="faadhar">Aadhar No</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">9087654321</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="feducation">Education</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">B.Tech</p>
+                    </div>
+                  
+                    <p class="card-description">
+                      Mother details
+                    </p>
+                    <div class="form-group">
+                      <label for="mname">Name</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">Radha</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="moccupation">Occupation</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">Homemaker</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="mmobile">Mobile No</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">0987654321</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="maadhar">Aadhar No</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">0987654321</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="meducation">Education</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">none</p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Schooling details</h4>
+                  <p class="card-description">
+                    10th details
+                  </p>
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <label for="schoolname">School name</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">government</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="schooltype">School type</label>
+                      <select class="form-control" id="schooltype">
+                        <option>govt</option>
+                        <option>private</option>
+                        
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="schoolmedium">School medium</label>
+                      <select class="form-control" id="schoolmedium">
+                        <option>tamil</option>
+                        <option>english</option>
+                        
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="schooldistrict">District</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">salem</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="10thmark">Mark</label>
+                      <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">100</p>
+                    </div>
+                    <p class="card-description">
+                      12th details
+                    </p>
+                    <form class="forms-sample">
+                      <div class="form-group">
+                        <label for="schoolname">School name</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">government girls school</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="schooltype">School type</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">government</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="schoolmedium">School medium</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">Tamil</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="schooldistrict">District</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">salem</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="12thgroup">Group</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">Bio</p>
+                      </div>
+                      <div class="form-group">
+                        <label for="12thmark">Mark</label>
+                        <p name="siblingscount" class="form-control" style="background-color: rgb(234, 229, 234);">500</p>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  
+                  <form class="forms-sample">
+                    
+                    
+                    <div class="form-group">
+                      <label for="exampleTextarea1">Note</label>
+                      <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../../vendors/typeahead.js/typeahead.bundle.min.js"></script>
+  <script src="../../vendors/select2/select2.min.js"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/template.js"></script>
+  <script src="../../js/settings.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="../../js/file-upload.js"></script>
+  <script src="../../js/typeahead.js"></script>
+  <script src="../../js/select2.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
